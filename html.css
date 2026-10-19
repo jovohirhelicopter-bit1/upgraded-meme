@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.to-uppercase{
+    text-transform: uppercase;
+}
+/* Topbar section */
+.topbar{
+    background-color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.topbar-navigation{
+    height: 74px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    height: 30px;
+}
+.topbar-items{
+    display: flex;
+    gap: 20px;
+}
+.topbar-item{
+    list-style: none;
+}
+.topbar-item a{
+    text-decoration: none;
+    color: rgb(158, 158, 158);
+    font-weight: 600;
+}
+.topbar-item .active{
+    color: white;
+}
+.topbar-item a:hover{
+    color: white;
+}
+
+/* Header section */
+.Header{
+    background-image: url("images/bg_header.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 90vh;
+
+}
+.header-main-box{
+    text-align: center;
+    padding-top: 200px;
+}
+.header-main-box h2{
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+}
+.header-main-box p{
+    font-size: 20px;
+    color: rgb(185, 185, 185);
+    padding-bottom: 30px ;
+  
+
+}
+.header-btn-l{
+    border: 2px solid gray;
+    color: rgb(183, 183, 183);
+    background: transparent;
+    font-size: 16px;
+    width: 195px;
+    height: 40px;
+    font-weight: 1000;
+}
+.header-btn-l:hover{
+    background-color: rgb(76, 76, 76);
+    color: white;
+}
+.header-btn-r{
+    border: 2px solid gray;
+    color:white;
+    font-size: 16px;
+    width: 220px;
+    height: 40px;
+     background-color: rgb(255, 162, 2);
+     font-weight: 1000;
+}
+
+.header-btn-r:hover{
+    background-color: rgb(255, 124, 3);
+}
+
+/* Body section */
+#main{
+     background-color: rgb(247, 242, 242);
+}
+.title{
+    text-align: center;
+    padding-top: 35px;
+}
+.sub{
+    font-size: 29px;
+    color: rgb(100, 95, 95);
+    
+
+}
+.totle{
+    color: rgb(100, 95, 95);
+}
+
+.sit{
+   color: rgb(100, 95, 95);
+   text-align: center;
+   padding-top: 40px;
+   padding-bottom: 50px;
+}
+.reasons{
+display: flex;
+text-align: center;
+gap:30px;
+padding-left:10%;
+padding-right:10%;
+padding-bottom: 60px;
+
+}
+.reasons > div{
+    width: 25%;
+}
+.box > i{
+    background: linear-gradient(white,blue,red);
+    color: black;
+    border-radius: 50%;
+    font-size: 33px;
+
+}
+
+/* main section */
+.main-section{
+    background-color: white;
+}
+.main-title{
+color: rgb(228, 228, 228);
+text-align: center;
+}
+.main-div{
+    display: flex;
+    padding-bottom: 40px;
+    width: 90%;
+    gap: 100px;
+}
+.subtitle{
+    color:rgb(228, 227, 227) ;
+    font-size:20px;
+}
+.sub-div{
+    display: flex;
+    padding-bottom: 40px;
+    width: 90%;
+    gap: 100px;
+    
+}
+.border-box{
+    border: 0px solid black;
+    height: 200px;
+    position: relative;
+    display: flex;
+    margin: 0 10%;
+    padding: 40px;
+    background-color: rgb(232, 225, 225);
+}
+.ned{
+background-color:rgb(255, 162, 2) ;
+color: white;
+border: none;
+position: absolute;
+top: 110px;
+right: 130px;
+width: 12%;
+height: 20%;
+font-size: 15px;
+
+
+
+}
+.need{
+    margin: 0 10%;
+}
+/* Footer section */
+.footer-section{
+    margin-top: 60px;
+    background-color: rgb(26, 24, 24);
+    color: white;
+    padding: 20px 10%;
+    display: flex;
+    gap: 40px;
+
+}
+.footer-section-div {
+  width: 25%;
+}
+.footer-section-div > p{
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.footer-section-icons{
+    padding-top: 20px;
+    display: flex;
+    gap: 10px;
+   
+}
+.footer-section-icons > i{
+     font-size: 18px;
+}
+.footer-section-heading{
+    width: 25%;
+}
+.text-widget{
+width: 50%;
+}
+
+
